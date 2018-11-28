@@ -1,0 +1,122 @@
+.container {
+  width: 1140px;
+  height: 768px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.jumbotron1, .jumbotron2, .contactJumbo{
+  opacity: .75;
+
+  }
+
+  .contactJumbo {
+      background-image: url("../images/contact.jpg");
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+.contactCLM{
+  color : white;
+  text-align: center;
+}
+
+
+.indexBody {
+  background-image: url("../images/wh.gif");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  overflow: hidden;
+}
+
+.indexBody1{
+    overflow: hidden;
+}
+
+
+
+.contactBody {
+  background-image: url("../images/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.fpContainer{
+  background-color: #333;
+}
+
+.firstBedPic{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75% 75%;
+}
+
+.firstFProw{
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.hClass{
+  text-align: center;
+  color: white;
+}
+
+.textJustfy{
+  text-align: justify;
+  color: White;
+  opacity: .75
+}
+
+.secondBedroom{
+
+}
+
+.oneBedroom{
+  background-image: url(../images/"1bdFP.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.glyphicon {
+    font-size: 50px;
+    padding: inherit;
+}
+
+.aboutPic{
+
+}
+.aboutH1{
+  color: white;
+}
+
+.aboutH2{
+  text-align: center;
+  color: white;
+}
+
+.aboutRow {
+
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+body{
+  background-color:  #333;
+}
